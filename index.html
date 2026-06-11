@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="warm">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>半山咖啡 | 南山路的一处静谧角落</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="progress-bar"></div>
+
+  <!-- ── TOPBAR ── -->
+  <div id="topbar">
+    <div class="container topbar-inner">
+      <span>📍 杭州市西湖区南山路101号</span>
+      <span class="topbar-divider">|</span>
+      <span>📞 +86 571 8888 0000</span>
+      <span class="topbar-divider">|</span>
+      <span>🕐 08:00 - 21:00</span>
+    </div>
+  </div>
+
+  <!-- ── NAVBAR ── -->
+  <nav id="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="nav-logo">半山咖啡</a>
+      <ul class="nav-links">
+        <li><a href="#about">关于我们</a></li>
+        <li><a href="#menu">菜单</a></li>
+        <li><a href="#gallery">环境展示</a></li>
+        <li><a href="#reviews">顾客评价</a></li>
+        <li><a href="#visit">到店信息</a></li>
+        <li><a href="tel:+86 571 8888 0000" class="btn-call">📞 致电我们</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="切换配色方案" title="切换配色方案">
+        <span class="theme-dot theme-dot-warm"></span>
+        <span class="theme-dot theme-dot-fresh"></span>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="菜单">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p class="hero-eyebrow fade-in">欢迎光临</p>
+      <h1 class="hero-title fade-in">半山咖啡</h1>
+      <p class="hero-desc fade-in">南山路的一处静谧角落</p>
+      <div class="hero-cta fade-in">
+        <a href="#menu" class="btn btn-primary">查看菜单</a>
+        <a href="https://www.amap.com/search?query=杭州市西湖区南山路101号" target="_blank" rel="noopener" class="btn btn-outline-white">立即导航</a>
+      </div>
+      <div class="hero-highlights fade-in">
+        <div class="highlight">🌱 <span>精选单品豆</span></div>
+        <div class="highlight-divider">|</div>
+        <div class="highlight">✨ <span>手工烘焙</span></div>
+        <div class="highlight-divider">|</div>
+        <div class="highlight">⭐ <span>静谧角落</span></div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-hint">
+      <span>向下滑动</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </a>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-images fade-in">
+          <div class="img-main img-placeholder">
+            <span class="ph-icon">☕</span>
+            <span class="ph-label">建议替换：店内环境实拍图</span>
+          </div>
+          <div class="img-secondary img-placeholder">
+            <span class="ph-icon">🌿</span>
+          </div>
+          <div class="img-badge">
+            <span class="badge-num counter" data-target="5" data-suffix="">0</span>
+            <span class="badge-txt">年<br/>用心经营</span>
+          </div>
+        </div>
+        <div class="about-text fade-in">
+          <p class="section-eyebrow">关于我们</p>
+          <h2 class="section-title-left">我们的故事</h2>
+          <p class="about-quote">"一杯好咖啡，是对生活的温柔致意。"</p>
+          <p class="about-attr">— 半山咖啡 主理人</p>
+          <p>半山咖啡坐落于南山路一隅，专注甄选单一产地精品咖啡豆，由经验丰富的咖啡师手工烘焙与冲煮，致力于为每一位客人呈现层次分明的风味体验。</p>
+          <p>在这里，时间仿佛慢了下来。无论是独自小坐、与朋友闲聊，还是处理工作，半山咖啡都希望成为你在南山路上的一处静谧角落。</p>
+          <div class="about-stats">
+            <div class="astat"><span class="astat-num counter" data-target="5" data-suffix="">0</span><span class="astat-lbl">用心经营 (年)</span></div>
+            <div class="astat"><span class="astat-num counter" data-target="20" data-suffix="+">0</span><span class="astat-lbl">招牌产品</span></div>
+            <div class="astat"><span class="astat-num counter" data-target="500" data-suffix="+" data-format="comma">0</span><span class="astat-lbl">好评顾客</span></div>
+            <div class="astat"><span class="astat-num counter" data-target="98" data-suffix="%">0</span><span class="astat-lbl">回头客比例</span></div>
+          </div>
+          <a href="#menu" class="btn btn-primary">查看菜单</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── MENU ── -->
+  <section id="menu" class="section section-dark">
+    <div class="container">
+      <p class="section-eyebrow center fade-in">精心呈现</p>
+      <h2 class="section-title fade-in">菜单一览</h2>
+      <p class="section-desc fade-in" style="color:rgba(255,255,255,.6)">
+        用一杯咖啡，开启南山路的悠然时光。
+      </p>
+      <div class="menu-tabs fade-in">
+        <button class="mtab active" data-cat="all">全部</button>
+        <button class="mtab" data-cat="cat1">咖啡</button>
+        <button class="mtab" data-cat="cat2">轻食</button>
+        <button class="mtab" data-cat="cat3">甜点</button>
+        <button class="mtab" data-cat="cat4">茶饮</button>
+      </div>
+      <div class="menu-grid" id="menuGrid">
+
+        <!-- 分类一 -->
+        <div class="menu-item fade-in" data-cat="cat1">
+          <div class="menu-item-img"><span class="menu-icon">☕</span></div>
+          <div class="menu-item-body">
+            <div class="menu-top">
+              <h3>美式咖啡</h3>
+              <span class="menu-price">¥28</span>
+            </div>
+            <p>精选单一产地阿拉比卡豆，干净醇厚的经典风味。</p>
+            <div class="menu-tags"><span>经典</span><span>可冰可热</span></div>
+          </div>
+        </div>
+
+        <div class="menu-item fade-in" data-cat="cat1">
+          <div class="menu-item-img"><span class="menu-icon">🧋</span></div>
+          <div class="menu-item-body">
+            <div class="menu-top">
+              <h3>拿铁咖啡</h3>
+              <span class="menu-price">¥32</span>
+            </div>
+            <p>意式浓缩与丝滑牛奶完美融合，口感温润。</p>
+            <div class="menu-tags"><span>人气</span><span>可加燕麦奶</span></div>
+          </div>
+        </div>
+
+        <!-- 分类二 -->
+        <div class="menu-item fade-in" data-cat="cat2">
+          <div class="menu-item-img"><span class="menu-icon">🥪</span></div>
+          <div class="menu-item-body">
+            <div class="menu-top">
+              <h3>火腿芝士帕尼尼</h3>
+              <span class="menu-price">¥38</span>
+            </div>
+            <p>现烤帕尼尼，搭配香煎火腿与芝士，外酥内软。</p>
+            <div class="menu-tags"><span>现做</span><span>招牌</span></div>
+          </div>
+        </div>
+
+        <div class="menu-item fade-in" data-cat="cat2">
+          <div class="menu-item-img"><span class="menu-icon">🥗</span></div>
+          <div class="menu-item-body">
+            <div class="menu-top">
+              <h3>时蔬鸡胸沙拉</h3>
+              <span class="menu-price">¥42</span>
+            </div>
+            <p>新鲜时蔬搭配嫩煎鸡胸肉，清爽低卡。</p>
+            <div class="menu-tags"><span>健康轻食</span><span>高蛋白</span></div>
+          </div>
+        </div>
+
+        <!-- 分类三 -->
+        <div class="menu-item fade-in" data-cat="cat3">
+          <div class="menu-item-img"><span class="menu-icon">🍰</span></div>
+          <div class="menu-item-body">
+            <div class="menu-top">
+              <h3>提拉米苏</h3>
+              <span class="menu-price">¥36</span>
+            </div>
+            <p>经典意式甜点，咖啡香与可可粉层层交融。</p>
+            <div class="menu-tags"><span>人气甜点</span><span>需冷藏</span></div>
+          </div>
+        </div>
+
+        <div class="menu-item fade-in" data-cat="cat3">
+          <div class="menu-item-img"><span class="menu-icon">🥐</span></div>
+          <div class="menu-item-body">
+            <div class="menu-top">
+              <h3>可颂面包</h3>
+              <span class="menu-price">¥18</span>
+            </div>
+            <p>法式黄油可颂，每日新鲜烘焙，层次分明。</p>
+            <div class="menu-tags"><span>每日现烤</span><span>法式经典</span></div>
+          </div>
+        </div>
+
+        <!-- 分类四 -->
+        <div class="menu-item fade-in" data-cat="cat4">
+          <div class="menu-item-img"><span class="menu-icon">🍵</span></div>
+          <div class="menu-item-body">
+            <div class="menu-top">
+              <h3>茉莉花茶拿铁</h3>
+              <span class="menu-price">¥30</span>
+            </div>
+            <p>茉莉花茶与牛奶调配，清香怡人。</p>
+            <div class="menu-tags"><span>季节限定</span><span>可冰可热</span></div>
+          </div>
+        </div>
+
+        <div class="menu-item fade-in" data-cat="cat4">
+          <div class="menu-item-img"><span class="menu-icon">🍮</span></div>
+          <div class="menu-item-body">
+            <div class="menu-top">
+              <h3>焦糖布丁</h3>
+              <span class="menu-price">¥22</span>
+            </div>
+            <p>顺滑香浓的手工布丁，焦糖微苦回甘。</p>
+            <div class="menu-tags"><span>手工制作</span><span>人气甜品</span></div>
+          </div>
+        </div>
+
+      </div>
+      <div class="menu-footer fade-in">
+        <p>如需团购或包场活动，欢迎致电咨询。</p>
+        <a href="tel:+86 571 8888 0000" class="btn btn-primary">致电预订 / 咨询</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── GALLERY ── -->
+  <section id="gallery" class="section">
+    <div class="container">
+      <p class="section-eyebrow center fade-in">环境展示</p>
+      <h2 class="section-title fade-in">走进 半山咖啡</h2>
+      <div class="gallery-grid fade-in">
+        <div class="gal-item gal-large"><div class="gal-img gal-1"><span class="gal-icon">🛋️</span></div><div class="gal-overlay"><span>温馨惬意的店内座位区</span></div></div>
+        <div class="gal-item"><div class="gal-img gal-2"><span class="gal-icon">☕</span></div><div class="gal-overlay"><span>吧台与咖啡制作区</span></div></div>
+        <div class="gal-item"><div class="gal-img gal-3"><span class="gal-icon">🪴</span></div><div class="gal-overlay"><span>绿植点缀的休闲一角</span></div></div>
+        <div class="gal-item"><div class="gal-img gal-4"><span class="gal-icon">🥐</span></div><div class="gal-overlay"><span>新鲜出炉的烘焙甜点</span></div></div>
+        <div class="gal-item gal-wide"><div class="gal-img gal-5"><span class="gal-icon">🪟</span></div><div class="gal-overlay"><span>落地窗旁的阳光座位</span></div></div>
+        <div class="gal-item"><div class="gal-img gal-6"><span class="gal-icon">🎨</span></div><div class="gal-overlay"><span>店内艺术装饰一角</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── REVIEWS ── -->
+  <section id="reviews" class="section section-dark">
+    <div class="container">
+      <p class="section-eyebrow center fade-in">真实反馈</p>
+      <h2 class="section-title fade-in">顾客怎么说</h2>
+      <div class="reviews-grid">
+
+        <div class="review-card fade-in">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"环境很安静，咖啡很香，很适合工作和聊天。"</p>
+          <div class="review-author">
+            <div class="review-avatar review-avatar-1">李</div>
+            <div>
+              <strong>李小姐</strong>
+              <span>本地居民</span>
+            </div>
+            <div class="review-source">大众点评</div>
+          </div>
+        </div>
+
+        <div class="review-card fade-in">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"拿铁口感顺滑，店员服务也很贴心。"</p>
+          <div class="review-author">
+            <div class="review-avatar review-avatar-2">王</div>
+            <div>
+              <strong>王先生</strong>
+              <span>回头客</span>
+            </div>
+            <div class="review-source">小红书</div>
+          </div>
+        </div>
+
+        <div class="review-card fade-in">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"周末来这里喝杯咖啡，整个人都放松下来了。"</p>
+          <div class="review-author">
+            <div class="review-avatar review-avatar-3">陈</div>
+            <div>
+              <strong>陈女士</strong>
+              <span>附近上班族</span>
+            </div>
+            <div class="review-source">美团</div>
+          </div>
+        </div>
+
+      </div>
+      <div class="reviews-summary fade-in">
+        <div class="rs-item"><span class="rs-num counter" data-target="4" data-suffix=".9">0</span><span class="rs-lbl">平均评分</span></div>
+        <div class="rs-item"><span class="rs-num counter" data-target="300" data-suffix="+" data-format="comma">0</span><span class="rs-lbl">累计评价</span></div>
+        <div class="rs-item"><span class="rs-num counter" data-target="95" data-suffix="%">0</span><span class="rs-lbl">好评率</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── VISIT US ── -->
+  <section id="visit" class="section section-cream">
+    <div class="container">
+      <p class="section-eyebrow center fade-in">欢迎光临</p>
+      <h2 class="section-title fade-in">到店信息</h2>
+      <p class="section-desc fade-in">欢迎随时光临半山咖啡，我们在南山路恭候您。</p>
+      <div class="visit-grid">
+
+        <div class="visit-card fade-in">
+          <h3>🕐 营业时间</h3>
+          <div class="hours-list">
+            <div class="hour-row"><span>周一至周五</span><span>08:00 - 21:00</span></div>
+            <div class="hour-row"><span>周六 · 周日</span><span>08:00 - 22:00</span></div>
+            <div class="hour-row"><span>法定节假日</span><span>09:00 - 21:00</span></div>
+          </div>
+        </div>
+
+        <div class="visit-card fade-in">
+          <h3>📍 门店地址</h3>
+          <p class="address">杭州市西湖区南山路101号</p>
+          <a href="https://www.amap.com/search?query=杭州市西湖区南山路101号" target="_blank" rel="noopener" class="btn btn-outline-dark btn-sm" style="margin-top:.75rem">导航前往</a>
+        </div>
+
+        <div class="visit-card fade-in">
+          <h3>📞 联系方式</h3>
+          <p>电话：<a href="tel:+86 571 8888 0000">+86 571 8888 0000</a></p>
+          <p>微信号：BanshanCoffee</p>
+          <button class="btn btn-outline-dark btn-sm" id="openWechat" type="button">查看微信二维码</button>
+        </div>
+
+        <div class="visit-card visit-qr fade-in">
+          <h3>💬 扫码加微信</h3>
+          <button type="button" class="qr-img-btn" id="visitQrBtn" aria-label="点击放大微信二维码">
+            <img src="assets/wechat-qr-placeholder.svg" alt="微信二维码占位图，请替换为真实二维码" class="qr-img" />
+          </button>
+          <p class="qr-caption">扫码添加微信，了解更多优惠活动</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="footer-top">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">半山咖啡</div>
+          <p>南山路上的精品咖啡馆，专注单品手冲与温暖时光。</p>
+          <div class="footer-socials">
+            <a href="#" aria-label="小红书">📕</a>
+            <a href="#" aria-label="大众点评">⭐</a>
+            <a href="#" aria-label="抖音">🎵</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>快速链接</h5>
+          <ul>
+            <li><a href="#about">关于我们</a></li>
+            <li><a href="#menu">菜单</a></li>
+            <li><a href="#gallery">环境展示</a></li>
+            <li><a href="#reviews">顾客评价</a></li>
+            <li><a href="#visit">到店信息</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>联系我们</h5>
+          <ul class="footer-contact">
+            <li>📍 杭州市西湖区南山路101号</li>
+            <li>📞 <a href="tel:+86 571 8888 0000">+86 571 8888 0000</a></li>
+            <li>🕐 08:00 - 21:00</li>
+            <li>
+              <button type="button" class="footer-wechat-btn" id="footerWechatBtn">
+                <img src="assets/wechat-qr-placeholder.svg" alt="微信二维码占位图，请替换为真实二维码" class="footer-qr-thumb" />
+                <span>💬 微信：BanshanCoffee<br/><small>点击查看二维码</small></span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <span>© 2026 半山咖啡. All rights reserved.</span>
+        <!-- 交付前可保留/删除以下作品署名 -->
+        <span class="footer-credit">Demo site designed &amp; built by <strong>George Wang</strong> · <a href="mailto:yanbingfanyi@gmail.com">yanbingfanyi@gmail.com</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ── MOBILE STICKY BAR ── -->
+  <div class="mobile-bar">
+    <a href="tel:+86 571 8888 0000" class="mobile-bar-item">
+      <span class="mb-icon">📞</span><span class="mb-label">电话</span>
+    </a>
+    <a href="https://www.amap.com/search?query=杭州市西湖区南山路101号" target="_blank" rel="noopener" class="mobile-bar-item">
+      <span class="mb-icon">📍</span><span class="mb-label">导航</span>
+    </a>
+    <button class="mobile-bar-item" id="mobileBarWechat" type="button">
+      <span class="mb-icon">💬</span><span class="mb-label">微信</span>
+    </button>
+  </div>
+
+  <!-- ── WECHAT QR MODAL ── -->
+  <div class="qr-modal" id="qrModal" aria-hidden="true">
+    <div class="qr-modal-backdrop" id="qrModalBackdrop"></div>
+    <div class="qr-modal-content">
+      <button class="qr-modal-close" id="qrModalClose" aria-label="关闭">×</button>
+      <h3>扫码添加微信</h3>
+      <img src="assets/wechat-qr-placeholder.svg" alt="微信二维码占位图，请替换为真实二维码" />
+      <p>微信号：BanshanCoffee</p>
+    </div>
+  </div>
+
+  <button id="back-to-top" aria-label="回到顶部">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

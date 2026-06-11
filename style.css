@@ -183,7 +183,8 @@ em { font-style: italic; }
 }
 .badge-num { font-family: var(--font-heading); font-size: 2rem; font-weight: 700; line-height: 1; }
 .badge-txt { font-size: .65rem; font-weight: 700; text-align: center; line-height: 1.3; }
-.about-text p { color: var(--body); margin-bottom: 1rem; }
+.about-text { padding: 4px 0; }
+.about-text p { color: var(--body); margin-bottom: 12px; line-height: 1.8; }
 .about-quote { font-family: var(--font-heading); font-size: 1.1rem; color: var(--dark); font-style: italic; border-left: 3px solid var(--accent); padding-left: 1.25rem; margin: 1.5rem 0 .25rem; }
 .about-attr  { font-size: .8rem; color: var(--accent-d); font-weight: 600; margin-bottom: 1.25rem; padding-left: 1.25rem; }
 .about-stats { display: grid; grid-template-columns: repeat(4,1fr); gap: 1rem; margin: 2rem 0; }
@@ -239,6 +240,7 @@ em { font-style: italic; }
 .gal-item  { position: relative; overflow: hidden; border-radius: var(--radius); cursor: pointer; }
 .gal-img   { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; transition: transform .5s ease; }
 .gal-icon  { font-size: 4rem; opacity: .3; }
+.gal-img img { width: 100%; height: 100%; object-fit: cover; display: block; border-radius: var(--radius); }
 .gal-1 { background: linear-gradient(135deg, var(--dark), rgba(var(--accent-rgb),.35)); }
 .gal-2 { background: linear-gradient(225deg, var(--charcoal), rgba(var(--accent-rgb),.25)); }
 .gal-3 { background: linear-gradient(135deg, rgba(var(--accent-rgb),.3), var(--dark)); }
@@ -408,7 +410,7 @@ footer .footer-bottom { background: #000; padding: 1.1rem 0; }
   .footer-grid { grid-template-columns: 1fr; gap: 2.5rem; }
   .reviews-summary { gap: 2rem; }
   .about-stats { grid-template-columns: repeat(2,1fr); }
-  .gallery-grid { grid-template-columns: 1fr; }
+  .gallery-grid { grid-template-columns: 1fr; gap: 8px; }
   .gallery-grid .gal-item { aspect-ratio: 4/3; }
   .visit-grid { grid-template-columns: 1fr; }
 
